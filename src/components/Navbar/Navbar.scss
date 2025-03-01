@@ -1,0 +1,38 @@
+@import"../../app.scss";
+
+.navbar{
+    height: 100px;
+    
+    .wrapper{
+        margin: auto;
+        margin-left: 10vw;
+        max-width: 1100px;
+        display:flex;
+        align-items: center;;
+        justify-content: space-evenly;
+        height: 100%;
+        
+        @include mobile{
+            margin-left: 6rem;
+        }
+        //sass allow us to write nested elements
+        span{
+            font-size: small;
+            color: #b3b3b3;
+            font-weight:bold;
+        }
+
+        .social{
+            
+            display: flex;
+            gap: 10px;
+
+            img{
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+
+}
+
