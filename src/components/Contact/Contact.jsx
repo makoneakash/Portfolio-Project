@@ -53,11 +53,11 @@ const Contact =()=>{
            <motion.h1 variants={variants}>let's work together</motion.h1>
             <motion.div variants={variants} className="item" >
                 <h2>Mail</h2>
-                <span>test@mail.com</span>
+                <span>makoneakash@mail.com</span>
             </motion.div>
             <motion.div variants={variants} className="item" >
                 <h2>Address</h2>
-                <span>Shrirampur,Maharastra</span>
+                <span>Nashik,Maharastra</span>
             </motion.div>
             <motion.div variants={variants} className="item" >
                 <h2>Phone</h2>

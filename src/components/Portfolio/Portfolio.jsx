@@ -6,21 +6,21 @@ import {motion,useScroll, useSpring, useTransform} from "framer-motion"
 const items = [
     {
         id:1,
-        title:"project 1 title",
-        img:"https://pixels.com/images/wallArtPaintedPortrait.jpg",
-        desc:"desc here ",
+        title:"Spotify Clone",
+        img:"SpotifyImg.png",
+        desc:"||  Technologies Used : React js , context api ,scss ,html5   ||  ||  Here in this application we used spotify's api for feting user data ||  || we used yarn build tool for this project ||",
     },
     {
         id:2,
-        title:"project 2 title",
-        img:"https://pixels.com/images/wallArtPaintedPortrait.jpg",
-        desc:"desc here ",
+        title:" Tech Currency Converter",
+        img:"tech-currency-converter.png",
+        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  || Here we have real-time exchange rates for different currencies || we integrated an api for a current currency exchange rates || ",
     },
     {
         id:3,
-        title:"project 4 title",
-        img:"https://pixels.com/images/wallArtPaintedPortrait.jpg",
-        desc:"desc here ",
+        title:"Tic-Tac-Toe-StressRelief",
+        img:"tic-tac-toe-stressrelief.png",
+        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  ||  It is a simple tic-tac-toe game which can be useful for stressrelief || ",
     },
 ];
 
@@ -40,7 +40,7 @@ const Single = ({item})=>{
               <motion.div className="textContainer" style={{y}}>
                 <h2>{item.title}</h2>
                 <p>{item.desc}</p>
-                <button>See Demo</button>
+               <a href="https://github.com/makoneakash"><button>See Code</button></a>
               </motion.div>
             </div>
           </div>
