@@ -8,19 +8,19 @@ const items = [
         id:1,
         title:"Spotify Clone",
         img:"SpotifyImg.png",
-        desc:"||  Technologies Used : React js , context api ,scss ,html5   ||  ||  Here in this application we used spotify's api for feting user data ||  || we used yarn build tool for this project ||",
+        desc:"||  Technologies Used : React js , context api ,scss ,html5   ||  ||  Here in this application we used spotify's api for feting user data ||  || we used yarn build tool for this project || ",
     },
     {
         id:2,
         title:" Tech Currency Converter",
         img:"tech-currency-converter.png",
-        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  || Here we have real-time exchange rates for different currencies || we integrated an api for a current currency exchange rates || ",
+        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  || Here we have real-time exchange rates for different currencies || we integrated an api for a current currency exchange rates || (link :- https://tech-currency-converter.netlify.app/ ) ",
     },
     {
         id:3,
         title:"Tic-Tac-Toe-StressRelief",
         img:"tic-tac-toe-stressrelief.png",
-        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  ||  It is a simple tic-tac-toe game which can be useful for stressrelief || ",
+        desc:"||  Technologies Used : javascript ,css3 ,html5   ||  ||  It is a simple tic-tac-toe game which can be useful for stressrelief || (link :- https://tic-tac-toe-stressrelif.netlify.app/ ) ",
     },
 ];
 
