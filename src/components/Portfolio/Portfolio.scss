@@ -16,7 +16,7 @@
 
     @include mobile {
      position: sticky;
-     top: 3rem;
+     top: 2rem;
      font-size: 24px;
     }
 
@@ -62,7 +62,7 @@
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
 
           @include mobile {
             object-fit: contain;
@@ -89,6 +89,8 @@
 
           @include mobile {
             font-size: 36px;
+            position:relative;
+            top: -50px;
           }
         }
 
@@ -98,6 +100,8 @@
 
           @include mobile {
             font-size: 16px;
+            position:relative;
+            top: -70px;
           }
         }
 
@@ -108,6 +112,10 @@
           padding: 10px;
           width: 200px;
           cursor: pointer;
+          @include mobile{
+            position:relative;
+            top: -80px;
+          }
         }
       }
     }

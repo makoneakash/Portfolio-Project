@@ -27,7 +27,7 @@ return(
     "linear-gradient(180deg,#111132,#505064)",
     
     }}>
-        <motion.h1 style={{y:yText}}>{type==="services" ?"what we do?" : "what we did?" }</motion.h1>
+        <motion.h1 style={{y:yText}}>{type==="services" ?"our speciality ?" : "what we did ?" }</motion.h1>
         <motion.div className="mountains" ></motion.div>
         <motion.div className="planets" 
             style={{
